@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #639247;
+  margin-bottom: 8px; /*gab betwin smth*/
+}
+
+button {
+  border: 1px solid #52962c;
+  color: rgb(241, 232, 232);
+  font-weight: bold;
+  font-size: 90%;
+  background-color: #52962c;
+  padding: 10px 30px;
+  box-shadow: 0.1em 0.1em 0.1em black;
+}
+#input-btn:hover {
+  background: rgb(58, 167, 31);
+}
+#tab-btn:hover {
+  background: rgb(58, 167, 31);
+}
+
+#delete-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid #8c9288;
+}
+#delete-btn:hover {
+  background: rgb(236, 234, 234);
+}
+ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+li {
+  margin-top: 5px;
+}
+
+li a {
+  color: #5f9341;
+}
